@@ -45,6 +45,13 @@
       "sourceScreenId": "app.tabbednavigation.tabscaptivating",
       "sourceAppId": "universaltemplates",
       "model": "tabscaptivating"
+    },
+    {
+      "id": "listviewconfident",
+      "name": "ListView-Confident",
+      "sourceScreenId": "app.listview.listviewconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "listviewconfident"
     }
   ],
   "sourceAppId": "_blank",
