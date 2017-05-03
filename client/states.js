@@ -60,14 +60,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.listviewconfident', {
-        views: {
-            app: {
-                controller: 'app_listviewconfident',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.listviewconfident');
-                }
-            }
-        }
     });
 });
