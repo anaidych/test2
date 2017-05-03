@@ -38,6 +38,13 @@
       "sourceScreenId": "app.loginconfident",
       "sourceAppId": "aaa",
       "model": "loginconfident1"
+    },
+    {
+      "id": "tabscaptivating",
+      "name": "Tabs-Captivating",
+      "sourceScreenId": "app.tabbednavigation.tabscaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "tabscaptivating"
     }
   ],
   "sourceAppId": "_blank",

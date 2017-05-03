@@ -1,0 +1,25 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-ios-arrow-left" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Tabs</ion-nav-title>
+        <ion-nav-buttons side="right"></ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content class="" data-comp-id="ionic-content.1">
+        <!--Tabs-->
+        <div data-comp-id="div.1">
+            <div class="row light-bg" data-comp-id="row.1" style="padding: 0px;">
+                <div class="col text-center" data-comp-id="column.1"
+                    ng-class="item.selected ? 'positive-bg' : ''"
+                    ng-click="app.action('tabs', 'data.tabs[item].action', this)"
+                    ng-repeat="item in data.tabs" ng-style="tabStyle(item)">
+                    <i class="icon {{item.icon}} light" data-comp-id="icon.1" ng-if="item.selected"
+                        style="font-size: 44px; line-height: 55px"></i>
+                    <button class="button {{item.icon}} icon button-round button-positive"
+                        data-comp-id="button.2" ng-if="!item.selected"></button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
