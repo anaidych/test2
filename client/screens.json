@@ -27,17 +27,6 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "loginconfident"
-    },
-    {
-      "id": "loginconfident1",
-      "name": "Login-Confident1",
-      "extraViews": [
-        "phone-landscape",
-        "tablet-portrait"
-      ],
-      "sourceScreenId": "app.loginconfident",
-      "sourceAppId": "aaa",
-      "model": "loginconfident1"
     }
   ],
   "sourceAppId": "_blank",
