@@ -51,14 +51,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.tabscaptivating', {
-        views: {
-            app: {
-                controller: 'app_tabscaptivating',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.tabscaptivating');
-                }
-            }
-        }
     });
 });
