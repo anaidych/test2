@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.formlargecaptivating', {
+        views: {
+            app: {
+                controller: 'app_formlargecaptivating',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.formlargecaptivating');
+                }
+            }
+        }
     });
 });
