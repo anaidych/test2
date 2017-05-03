@@ -45,13 +45,6 @@
       "sourceScreenId": "app.tabbednavigation.tabscaptivating",
       "sourceAppId": "universaltemplates",
       "model": "tabscaptivating"
-    },
-    {
-      "id": "formlargecaptivating",
-      "name": "FormLarge-Captivating",
-      "sourceScreenId": "app.formlarge.formlargecaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "formlargecaptivating"
     }
   ],
   "sourceAppId": "_blank",
