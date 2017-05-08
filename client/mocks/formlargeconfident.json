@@ -15,5 +15,6 @@
       }
     ]
   },
-  "string": "Verified"
+  "string": "Verified",
+  "string2": "Some text"
 }
