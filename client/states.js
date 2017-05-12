@@ -33,14 +33,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.formlargeclassic', {
-        views: {
-            app: {
-                controller: 'app_formlargeclassic',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.formlargeclassic');
-                }
-            }
-        }
     });
 });
