@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "loginconfident1"
+    },
+    {
+      "id": "formsmallclassic",
+      "name": "FormSmall-Classic",
+      "sourceScreenId": "app.formsmall.formsmallclassic",
+      "sourceAppId": "universaltemplates",
+      "model": "formsmallclassic"
     }
   ],
   "sourceAppId": "_blank",
