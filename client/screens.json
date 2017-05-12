@@ -20,6 +20,13 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "formlargeclassic",
+      "name": "FormLarge-Classic",
+      "sourceScreenId": "app.formlarge.formlargeclassic",
+      "sourceAppId": "universaltemplates",
+      "model": "formlargeclassic"
     }
   ],
   "sourceAppId": "_blank",
