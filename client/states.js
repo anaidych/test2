@@ -33,32 +33,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.loginconfident', {
-        views: {
-            app: {
-                controller: 'app_loginconfident',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.loginconfident');
-                }
-            }
-        }
-    }).state('app.formlargeconfident', {
-        views: {
-            app: {
-                controller: 'app_formlargeconfident',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.formlargeconfident');
-                }
-            }
-        }
-    }).state('app.listviewclassic', {
-        views: {
-            app: {
-                controller: 'app_listviewclassic',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.listviewclassic');
-                }
-            }
-        }
     });
 });
