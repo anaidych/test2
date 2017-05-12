@@ -1,1 +1,208 @@
-{}
+{
+  "loginconfident": {
+    "type": "object",
+    "comment": "Login",
+    "properties": {
+      "username": {
+        "type": "string",
+        "label": "username",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "password": {
+        "type": "string",
+        "label": "password",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "errorMessage": {
+        "type": "string",
+        "label": "errorMessage",
+        "update": {
+          "type": "none"
+        }
+      },
+      "submit": {
+        "type": "action",
+        "parameters": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "formlargeconfident": {
+    "type": "object",
+    "comment": "Forms",
+    "properties": {
+      "string": {
+        "type": "string",
+        "label": "TextInput",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "string2": {
+        "type": "string",
+        "label": "TextInput",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "string3": {
+        "type": "string",
+        "label": "TextArea",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "multiSelectData": {
+        "type": "select",
+        "label": "MultiSelect",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "multiSelectData2": {
+        "type": "select",
+        "label": "MultiSelect",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "radioData": {
+        "type": "select",
+        "label": "Radio"
+      },
+      "boolean": {
+        "type": "boolean",
+        "label": "CheckBoxes",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "boolean2": {
+        "type": "boolean",
+        "label": "CheckBoxes",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "date": {
+        "type": "date",
+        "label": "Date",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "time": {
+        "type": "time",
+        "label": "Time",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "name": {
+        "type": "string",
+        "label": "Name",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "email": {
+        "type": "string",
+        "label": "Email",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "phone": {
+        "type": "string",
+        "label": "Phone",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "submit": {
+        "type": "action"
+      }
+    }
+  },
+  "listviewclassic": {
+    "type": "object",
+    "comment": "ListView",
+    "properties": {
+      "listItems": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "string": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "action": {
+              "type": "action"
+            },
+            "icon": {
+              "type": "string"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  }
+}

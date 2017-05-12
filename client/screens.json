@@ -20,6 +20,27 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "loginconfident",
+      "name": "Login-Confident",
+      "sourceScreenId": "app.login.loginconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "loginconfident"
+    },
+    {
+      "id": "formlargeconfident",
+      "name": "FormLarge-Confident",
+      "sourceScreenId": "app.formlarge.formlargeconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "formlargeconfident"
+    },
+    {
+      "id": "listviewclassic",
+      "name": "ListView-Classic",
+      "sourceScreenId": "app.listview.listviewclassic",
+      "sourceAppId": "universaltemplates",
+      "model": "listviewclassic"
     }
   ],
   "sourceAppId": "_blank",
